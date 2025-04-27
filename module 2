@@ -1,0 +1,19 @@
+#include <iostream>
+#include "payroll.h"
+using namespace std;
+
+double getPayPerPeriod() {
+    return 2200.0;
+}
+
+int getPayPeriodsPerYear() {
+    return 26;
+}
+
+double calculateAnnualPay(double payPerPeriod, int payPeriods) {
+    return payPerPeriod * payPeriods;
+}
+
+void displayAnnualPay(double annualPay) {
+    cout << "The total annual pay is: $" << annualPay << endl;
+}
