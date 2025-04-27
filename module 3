@@ -1,0 +1,9 @@
+#ifndef PAYROLL_H
+#define PAYROLL_H
+
+double getPayPerPeriod();
+int getPayPeriodsPerYear();
+double calculateAnnualPay(double payPerPeriod, int payPeriods);
+void displayAnnualPay(double annualPay);
+
+#endif
